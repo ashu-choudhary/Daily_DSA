@@ -31,14 +31,30 @@ Output: []
 */
 
 
-public class ReverseLinkedList {
-    public static void main(String[] args) {
+import java.util.Scanner;
 
-        LinkedList head = new LinkedList(1);
-        head.next = new LinkedList(2);
-        head.next.next = new LinkedList(3);
-        head.next.next.next = new LinkedList(4);
-        head.next.next.next.next = new LinkedList(5);
+public class ReverseLinkedList {
+    public static void main() {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter no of nodes: ");
+        int n = sc.nextInt();
+
+        if(n == 0){
+            System.out.println("No of nodes is zero");
+            return;
+        }
+
+        System.out.println("Enter node no 1:");
+        LinkedList head = new LinkedList(sc.nextInt());
+        LinkedList tail = head;
+
+        for(int i = 2; i <= n; i++){
+            System.out.println("Enter node no " + i + ":");
+            tail.next = new LinkedList(sc.nextInt());
+            tail = tail.next;
+        }
 
         System.out.println("Before reverse list: ");
         printlist(head);
