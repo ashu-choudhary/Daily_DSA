@@ -1,4 +1,4 @@
-package Searching_Algo;
+package Searching_Algo.QUESTIONs;
 
 //https://www.geeksforgeeks.org/problems/find-repetitive-element-from-1-to-n-1/1
 

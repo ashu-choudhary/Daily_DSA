@@ -1,5 +1,5 @@
 
-package Searching_Algo;
+package Searching_Algo.ALGOs;
 
 import java.util.Scanner;
 
