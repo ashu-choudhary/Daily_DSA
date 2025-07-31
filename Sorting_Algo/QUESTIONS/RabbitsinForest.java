@@ -1,4 +1,4 @@
-package Sorting_Algo;
+package Sorting_Algo.QUESTIONS;
 
 //https://leetcode.com/problems/rabbits-in-forest/description/?envType=daily-question&envId=2025-04-20
 

@@ -1,4 +1,4 @@
-package Sorting_Algo;
+package Sorting_Algo.ALGOs;
 
 public class MergSort {
 
